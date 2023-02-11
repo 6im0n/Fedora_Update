@@ -49,8 +49,6 @@ update() {
 cleanuptime() {
 
         sudo dnf autoremove -y;
-
-        sudo dnf autoclean -y;
 }
 bounce() {
         echo
