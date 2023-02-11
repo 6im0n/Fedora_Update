@@ -61,3 +61,4 @@ bounce() {
 greeting
 update
 cleanuptime
+bounce
