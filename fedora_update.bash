@@ -40,6 +40,7 @@ update() {
         sudo dnf update -y;
 
         sudo dnf upgrade -y;
+        sudo flatpak update -y ;
         check_exit_status
 
       #  sudo dnf dist-upgrade -y;
